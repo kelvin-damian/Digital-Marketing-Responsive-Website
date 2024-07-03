@@ -122,7 +122,7 @@ nav ul a,
 
 /*==============HOME PAGE===============*/
 .home{
-    background-image: url("/Asset/images/Group\ 1.png");
+    background-image: url("./Asset/images/Group\ 1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
