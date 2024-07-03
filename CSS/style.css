@@ -107,22 +107,19 @@ nav ul a,
 
 
 
-
 .close__button, .menu__button {
     display: none;
     font-size: 1.2rem;
-    color: #1a1b4b;
+    color: var(--primary-color);
     cursor: pointer;
 }
 
 
 
 
-/*==============nav menu===============*/
-
 /*==============HOME PAGE===============*/
 .home{
-    background-image: url("./Asset/images/Group\ 1.png");
+    background-image: url("/Asset/images/Group\ 1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -287,6 +284,8 @@ nav ul a,
               animation-timing-function: ease-out;
     }
 }
+  
+  
 
 
 
@@ -365,6 +364,13 @@ nav ul a,
         padding-top: .5em;
         opacity: 60%;
         width: 75%;
+        
+    }
+
+    /* ========================HOME SECTION IMAGE====================================== */
+
+    .cubeImage .largeCube{
+        width: 40%;
         
     }
 
@@ -453,4 +459,18 @@ nav ul a,
 .cubeImage .smallCube{
     position: relative;
     right: -75%;
-} 
+}
+
+
+
+
+
+
+/* .homeText p{
+    max-width: 80%;
+    margin: auto;
+} */
+
+/* .wrapper .largeCube{
+    position: relative;
+}  */
